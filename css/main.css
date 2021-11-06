@@ -90,7 +90,7 @@ section {
 .brand {
     width: 170px;
     height: 85px;
-    margin-left: 15px;
+    margin-left: -15px;
     margin-right: 60px;
 }
 
@@ -110,11 +110,18 @@ section {
 
 .search-box {
     width: 330px;
-    padding:6px 12px;
+    height: 30px;
+    padding: 6px 12px;
     border: 1px solid #a0a0a0;
 }
 
-nav-list li a {
+.nav-list {
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+
+.nav-list li a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
@@ -129,7 +136,7 @@ nav-list li a {
     text-align: right;
     padding: 15px;
     color: #364147;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .profile-pic {
